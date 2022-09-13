@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
 .container {
     max-width: 1200px;
     width: 100%;
@@ -23,17 +28,14 @@
     background: url(../img/home.svg) no-repeat 10px center;
 
 }
+
 .input-adress::placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 24px;
     color: #BFBFBF;
 }
 
 .input {
-    font-family: 'SF Pro Display';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -43,6 +45,7 @@
     outline: none;
 
 }
+
 .section__header {
     margin-top: 44px;
     margin-bottom: 40px;
@@ -51,11 +54,17 @@
 .logo {
     max-height: 40px;
 }
+
 .logo__img {
     max-height: 100%;
 }
 
 .button {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     padding: 8px 19px 8px 33px;
     border: none;
     border-radius: 2px;
@@ -82,27 +91,183 @@
 
 .promo__block {
     background: #FFF1B8 url(../img/promo.png) no-repeat right center;
-    padding: 68px 0; 
-}
-
-.promo__info {
-    background: #000;
+    padding: 68px 0;
+    padding-left: 71px;
+    border-radius: 10px;
 }
 
 .promo__title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 39px;
     line-height: 46px;
     color: #302C34;
+    margin-bottom: 18px;
 }
 
 .promo__desc {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     color: #302C34;
+}
+
+.promo__info {
+    max-width: 530px;
+    width: 100%;
+    Left: 191px;
+}
+
+.restour__search {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.sectrion__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.input-search {
+    max-width: 306px;
+    width: 100%;
+    padding: 5px 12px 5px 32px;
+    background: url(../img/search.svg) no-repeat 10px 11px;
+}
+
+.input-search::placeholder {
+    line-height: 24px;
+    color: #BFBFBF;
+}
+
+.card {
+    max-width: 384px;
+    width: 100%;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card__main {
+    padding: 21px 24px 35px;
+}
+
+.card__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.card__desc {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.title__time {
+    background: #262626;
+    border-radius: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 4px 8px;
+}
+
+.card__raite {
+    position: relative;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFC107;
+    margin-left: 22px;
+}
+
+.card__raite::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 5px;
+    left: -22px;
+    background: url(../img/rate.svg) no-repeat center / cover;
+}
+
+.card__price {
+    padding-left: 26px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #8C8C8C;
+}
+
+.card__category {
+    position: relative;
+    font-size: 18px;
+    line-height: 32px;
+    color: #8C8C8C;
+    margin-left: 25px;
+}
+
+.card__category::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    border-radius: 50%;
+    background: #8C8C8C;
+    margin-top: -2.5px;
+
+}
+
+.section__restourants {
+    padding-top: 56px;
+    padding-bottom: 90px;
+}
+
+.section__footer{
+    background: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.block__navigation{
+    display: flex;
+    align-items: center;
+}
+.navigation__footer{
+    margin-left: 36px;
+}
+
+.nav-item{
+    line-height: 21px;
+    color: #595959;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.socials{
+    display: flex;
+    align-items: center;
+}
+
+.social-img{
+    margin-left: 25px;
 }

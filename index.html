@@ -5,48 +5,234 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delivery Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <!-- link -->
 </head>
 <body>
-    <header class="section__header">
-        <div class="container block">
+<header class="section__header">
+    <div class="container block">
+        <a href="#" class="logo">
+            <img src="img/logo.svg" alt="логотип" class="logo__img">
+        </a>
+        <!-- /.logo -->
+        <input type="text" class="input input-adress" placeholder="Адрес доставки">
+        <div class="buttons">
+            <button class="button button__man button--primary">Войти</button>
+            <button class="button button__cart button--secondary">Корзина</button>
+
+            <!-- button.button*2|c -->
+
+        </div>
+        <!-- /.buttons -->
+    </div>
+    <!-- /.container /.block -->
+</header>
+<!-- /.section__header -->
+<section class="section__promo">
+    <div class="container promo__block">
+        <div class="promo__info">
+            <h1 class="promo__title">Онлайн-сервис <br> доставки еды на дом</h1>
+            <p class="promo__desc">Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком</p>
+            <!-- p.promo__desc|c -->
+            <!-- /.promo__desc -->
+            <!-- h1.promo__title|c -->
+            <!-- /.promo__title -->
+        </div>
+        <!-- div.promo__info|c -->
+        <!-- /.promo__info -->
+    </div>
+    <!-- div.container|c -->
+    <!-- /.container /.promo__block-->
+
+</section>
+<!-- section.section__promo|c -->
+<!-- /.section__promo -->
+<section class="section__restourants">
+    <div class="container">
+        <div class="restour__search">
+            <h2 class="sectrion__title">Рестораны</h2>
+            <!-- /.sectrion__title -->
+            <input type="text" class="input input-search" placeholder="Поиск блюд и ресторанов">
+            <!-- /.input input__search --></div>
+        <!-- /.restour__search -->
+        <div class="cards">
+            <div class="card">
+                <a href="#" class="card__header">
+                    <img src="img/pizzaplus.png" alt="картинка" class="card__img">
+                    <!-- /.card__img --></a>
+                <div class="card__main">
+                    <div class="card__title">
+                        <h3 class="title">Пицца плюс</h3>
+                        <!-- /.title -->
+                        <span class="title__time">50 мин</span>
+                        <!-- /.title__time --></div>
+                    <!-- /.card__title -->
+                    <div class="card__desc">
+                        <strong class="card__raite">4.5</strong>
+                        <!-- /.card__raite --><span class="card__price">От 900₽</span>
+                        <!-- /.card__price --><p class="card__category">Пицца</p>
+                        <!-- /.card__category -->
+                        <!--                            strong.card__raite{4.5}+span.card__price{от 900}+p.card__category{Пицца}|c-->
+                    </div>
+                    <!-- /.card__desc -->
+                </div>
+                <!-- /.card__main -->
+                <!-- /.card__header --></div>
+            <div class="card">
+                <a href="#" class="card__header">
+                    <img src="img/pizzaplus.png" alt="картинка" class="card__img">
+                    <!-- /.card__img --></a>
+                <div class="card__main">
+                    <div class="card__title">
+                        <h3 class="title">Пицца плюс</h3>
+                        <!-- /.title -->
+                        <span class="title__time">50 мин</span>
+                        <!-- /.title__time --></div>
+                    <!-- /.card__title -->
+                    <div class="card__desc">
+                        <strong class="card__raite">4.5</strong>
+                        <!-- /.card__raite --><span class="card__price">От 900₽</span>
+                        <!-- /.card__price --><p class="card__category">Пицца</p>
+                        <!-- /.card__category -->
+                        <!--                            strong.card__raite{4.5}+span.card__price{от 900}+p.card__category{Пицца}|c-->
+                    </div>
+                    <!-- /.card__desc -->
+                </div>
+                <!-- /.card__main -->
+                <!-- /.card__header --></div>
+            <div class="card">
+                <a href="#" class="card__header">
+                    <img src="img/pizzaplus.png" alt="картинка" class="card__img">
+                    <!-- /.card__img --></a>
+                <div class="card__main">
+                    <div class="card__title">
+                        <h3 class="title">Пицца плюс</h3>
+                        <!-- /.title -->
+                        <span class="title__time">50 мин</span>
+                        <!-- /.title__time --></div>
+                    <!-- /.card__title -->
+                    <div class="card__desc">
+                        <strong class="card__raite">4.5</strong>
+                        <!-- /.card__raite --><span class="card__price">От 900₽</span>
+                        <!-- /.card__price --><p class="card__category">Пицца</p>
+                        <!-- /.card__category -->
+                        <!--                            strong.card__raite{4.5}+span.card__price{от 900}+p.card__category{Пицца}|c-->
+                    </div>
+                    <!-- /.card__desc -->
+                </div>
+                <!-- /.card__main -->
+                <!-- /.card__header --></div>
+            <div class="card">
+                <a href="#" class="card__header">
+                    <img src="img/pizzaplus.png" alt="картинка" class="card__img">
+                    <!-- /.card__img --></a>
+                <div class="card__main">
+                    <div class="card__title">
+                        <h3 class="title">Пицца плюс</h3>
+                        <!-- /.title -->
+                        <span class="title__time">50 мин</span>
+                        <!-- /.title__time --></div>
+                    <!-- /.card__title -->
+                    <div class="card__desc">
+                        <strong class="card__raite">4.5</strong>
+                        <!-- /.card__raite --><span class="card__price">От 900₽</span>
+                        <!-- /.card__price --><p class="card__category">Пицца</p>
+                        <!-- /.card__category -->
+                        <!--                            strong.card__raite{4.5}+span.card__price{от 900}+p.card__category{Пицца}|c-->
+                    </div>
+                    <!-- /.card__desc -->
+                </div>
+                <!-- /.card__main -->
+                <!-- /.card__header --></div>
+            <div class="card">
+                <a href="#" class="card__header">
+                    <img src="img/pizzaplus.png" alt="картинка" class="card__img">
+                    <!-- /.card__img --></a>
+                <div class="card__main">
+                    <div class="card__title">
+                        <h3 class="title">Пицца плюс</h3>
+                        <!-- /.title -->
+                        <span class="title__time">50 мин</span>
+                        <!-- /.title__time --></div>
+                    <!-- /.card__title -->
+                    <div class="card__desc">
+                        <strong class="card__raite">4.5</strong>
+                        <!-- /.card__raite --><span class="card__price">От 900₽</span>
+                        <!-- /.card__price --><p class="card__category">Пицца</p>
+                        <!-- /.card__category -->
+                        <!--                            strong.card__raite{4.5}+span.card__price{от 900}+p.card__category{Пицца}|c-->
+                    </div>
+                    <!-- /.card__desc -->
+                </div>
+                <!-- /.card__main -->
+                <!-- /.card__header --></div>
+            <div class="card">
+                <a href="#" class="card__header">
+                    <img src="img/pizzaplus.png" alt="картинка" class="card__img">
+                    <!-- /.card__img --></a>
+                <div class="card__main">
+                    <div class="card__title">
+                        <h3 class="title">Пицца плюс</h3>
+                        <!-- /.title -->
+                        <span class="title__time">50 мин</span>
+                        <!-- /.title__time --></div>
+                    <!-- /.card__title -->
+                    <div class="card__desc">
+                        <strong class="card__raite">4.5</strong>
+                        <!-- /.card__raite --><span class="card__price">От 900₽</span>
+                        <!-- /.card__price --><p class="card__category">Пицца</p>
+                        <!-- /.card__category -->
+                        <!--                            strong.card__raite{4.5}+span.card__price{от 900}+p.card__category{Пицца}|c-->
+                    </div>
+                    <!-- /.card__desc -->
+                </div>
+                <!-- /.card__main -->
+                <!-- /.card__header --></div>
+            <!-- /.card -->
+            <!--                div.card>a.card__header>img.card__img|c-->
+        </div>
+        <!-- /.cards -->
+    </div>
+    <!-- /.container -->
+</section>
+<!--    section.section__restourants>div.container>.restour__search>h2.sectrion__title{Рестораны}+input.input.input__search^div.cards|c-->
+<!-- /.section__restourants -->
+<footer class="section__footer">
+    <div class="container block">
+        <div class="block__navigation">
             <a href="#" class="logo">
                 <img src="img/logo.svg" alt="логотип" class="logo__img">
             </a>
-            <!-- /.logo -->
-            <input type="text" class="input input-adress" placeholder="Адрес доставки">
-            <div class="buttons">
-                <button class="button button__man button--primary">Войти</button>
-                <button class="button button__cart button--secondary">Корзина</button>
-                
-                <!-- button.button*2|c -->
-                    
-            </div>
-            <!-- /.buttons -->
+            <nav class="navigation__footer">
+                <a href="#" class="nav-item">Ресторанам</a>
+                <a href="#" class="nav-item">Курьерам</a>
+                <a href="#" class="nav-item">Пресс-центр</a>
+                <a href="#" class="nav-item">Контакты</a>
+            </nav>
+            <!--                nav.navigation__footer>a.nav-item*4|c-->
         </div>
-        <!-- /.container /.block -->
-    </header>
-    <!-- /.section__header -->
-    <section class="section__promo">
-        <div class="container promo__block">
-            <div class="promo__info">
-                <h1 class="promo__title">Онлайн-сервис доставки еды на дом</h1>
-                <p class="promo__desc">Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком</p>
-                <!-- p.promo__desc|c -->
-                <!-- /.promo__desc -->
-                <!-- h1.promo__title|c -->
-                <!-- /.promo__title -->
-            </div>
-            <!-- div.promo__info|c -->
-            <!-- /.promo__info -->
+        <!-- /.block__navigation -->
+        <div class="socials">
+            <a href="#" class="social-link">
+                <img src="img/instagram.svg" alt="социальная сеть" class="social-img">
+            </a>
+            <a href="#" class="social-link">
+                <img src="img/facebook.svg" alt="социальная сеть" class="social-img">
+            </a>
+            <a href="#" class="social-link">
+                <img src="img/vkontakte.svg" alt="социальная сеть" class="social-img">
+            </a>
         </div>
-        <!-- div.container|c -->
-        <!-- /.container /.promo__block-->
-        
-    </section>
-    <!-- section.section__promo|c -->
-    <!-- /.section__promo -->
-    
+        <!--            .socials>a.social-link*3>img.social-img-->
+    </div>
+    <!-- /.container -->
+</footer>
+<!--    footer.section__footer>.container>.block__navigation|c-->
+<!-- /.section__footer -->
+
 </body>
 </html> 
